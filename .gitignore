@@ -1,0 +1,18 @@
+# Büyük ve Ağır Medya / Model Dosyaları
+*.mov
+*.mp4
+*.pth
+*.pt
+*.zip
+backend/models/
+BrainTumor_Test_MRI/
+
+# Sistem ve Bağımlılıklar
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.lockb
+dist/
+build/
