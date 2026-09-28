@@ -1,3 +1,5 @@
+cd "/Users/muhammedeminkorkunc/Desktop/github/BrainTumorDetection_Classification-Segmentation_Graduation Project2026_DeepLearning"
+
 cat << 'EOF' > README.md
 
 # NeuroScan AI — Brain Tumor Classification & Segmentation (MRI) 🧠⚕️
@@ -44,31 +46,31 @@ Watch the comprehensive video demonstration showing live MRI analysis, multi-cla
 
 ### 1. Web Application Landing & Scan Upload
 
-![Upload Interface](./Screenshot/WebSite-1__screenshot.png)
+![Upload Interface](./Screenshot/WebSite-1_screenshot.png)
 
 ### 2. Multi-Class Classification & Confidence Scoring
 
-![Classification Result](./Screenshot/WebSite-2__screenshot.png)
+![Classification Result](./Screenshot/WebSite-2_screenshot.png)
 
 ### 3. Medical Guidance & Clinical Insights
 
-![Medical Information](./Screenshot/WebSite-4__screenshot.png)
+![Medical Information](./Screenshot/WebSite-4_screenshot.png)
 
 ### 4. Interactive U-Net Tumor Segmentation Overlay
 
-![Segmentation Mask Overlay](./Screenshot/WebSite-3__screenshot.png)
+![Segmentation Mask Overlay](./Screenshot/WebSite-3_screenshot.png)
 
 ### 5. Detailed Metric Visualizations
 
-![Evaluation Metrics](./Screenshot/WebSite-5__screenshot.png)
+![Evaluation Metrics](./Screenshot/WebSite-5_screenshot.png)
 
 ### 6. Telegram Analysis Bot Integration
 
-![Telegram Bot Preview](./Screenshot/telegram__screenshot.png)
+![Telegram Bot Preview](./Screenshot/telegram_screenshot.png)
 
 ### 7. Core Architecture & Preprocessing Pipeline
 
-![Architecture Implementation](./Screenshot/code__screenshot.png)
+![Architecture Implementation](./Screenshot/code_screenshot.png)
 
 ---
 
@@ -153,12 +155,12 @@ Manual interpretation of Brain MRI scans is labor-intensive and susceptible to f
                │      ├── Custom CNN Classifier (4-Class)
                │      └── U-Net Segmentation Engine (Binary Mask)
                └── SQLite User & Credit Database
-```
 
 API EndpointsMethodEndpointDescriptionGET/api/healthVerifies server readiness and returns loaded model states.POST/api/classifyAccepts multipart MRI scan; returns predicted label, confidence, and class probabilities.POST/api/segmentGenerates and returns a base64-encoded PNG binary segmentation mask.POST/api/analyzeExecutes joint classification and segmentation in a single request.
 
 💻 Installation & Quickstart
 Backend Setup
+
 cd Graduation_MRI_project-main/backend
 conda activate mri_project
 pip install -r requirements.txt
@@ -167,6 +169,7 @@ python app.py
 Backend runs on http://localhost:5001 or http://localhost:5000.
 
 Frontend Setup
+
 cd Graduation_MRI_project-main
 npm install
 npm run dev
@@ -177,4 +180,4 @@ Access the web interface at http://localhost:8080.
 Copyright (c) 2026 Muhammed Emin Korkunç. All Rights Reserved.
 
 This project, its architectures, preprocessed models, and documentation are protected. Distributed for academic evaluation, peer review, and non-commercial educational demonstration only. Unauthorized copying, extraction, or redistribution is strictly prohibited under the terms of the project LICENSE.
-EOF
+```
