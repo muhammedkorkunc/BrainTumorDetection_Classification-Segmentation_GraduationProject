@@ -1,7 +1,3 @@
-cd "/Users/muhammedeminkorkunc/Desktop/github/BrainTumorDetection_Classification-Segmentation_Graduation Project2026_DeepLearning"
-
-cat << 'EOF' > README.md
-
 # NeuroScan AI — Brain Tumor Classification & Segmentation (MRI) 🧠⚕️
 
 A deep learning–based medical imaging system designed to:
